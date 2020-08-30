@@ -1,10 +1,7 @@
 GET http://localhost:3000/tasks
 ###
 
-GET http://localhost:3000/tasks?status=IN_PROGRESS&search=egg
-###
-
-GET http://localhost:3000/tasks?status=DONE&search=hello
+GET http://localhost:3000/tasks?status=done&search=
 ###
 
 GET http://localhost:3000/tasks/0c7e45e0-eb04-11ea-9d68-f7d366ad1734
@@ -14,17 +11,17 @@ POST http://localhost:3000/tasks
 Content-Type: application/json
 
 {
-    "title": "fly",
-    "description": "I am to fly by 5am"
+    "title": "d",
+    "description": "d"
 }
 ###
 
 DELETE  http://localhost:3000/tasks/6239f230-eb05-11ea-9e84-652bdfe2cd9b
 ###
 
-PATCH http://localhost:3000/tasks/4b33aea0-eb0a-11ea-887f-89871d8157d3/status
+PATCH http://localhost:3000/tasks/49c76180-eb17-11ea-a219-e35180c60005/status
 Content-Type: application/json
 
 {
-    "status": "IN_PROGRESS"
+    "status": "ss"
 }
