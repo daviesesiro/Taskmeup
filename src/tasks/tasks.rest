@@ -26,8 +26,9 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkRhd
 DELETE  http://localhost:3000/tasks/3
 ###
 
-PATCH http://localhost:3000/tasks/4/status
+PATCH http://localhost:3000/tasks/3/status
 Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkRhdmllcyIsImlhdCI6MTU5ODkwNTg0NSwiZXhwIjoxNTk4OTA5NDQ1fQ.lA1GAwdreEXvGT_9V5WRpjKLTwqDL87sK6eOTJmnjt4
 
 {
     "status": "IN_PROGRESS"
