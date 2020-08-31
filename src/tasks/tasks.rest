@@ -1,18 +1,24 @@
 GET http://localhost:3000/tasks
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkRhdmllcyIsImlhdCI6MTU5ODkwNDc3NiwiZXhwIjoxNTk4OTA4Mzc2fQ.kWoxMfgymnq4WoAMPBAaqx8OSw8I9Oxnb2JIbu-g8sI
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkRhdmllcyIsImlhdCI6MTU5ODkwNTg0NSwiZXhwIjoxNTk4OTA5NDQ1fQ.lA1GAwdreEXvGT_9V5WRpjKLTwqDL87sK6eOTJmnjt4
+###
+GET http://localhost:3000/tasks
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkRhdmllczIiLCJpYXQiOjE1OTg5MDY5NDEsImV4cCI6MTU5ODkxMDU0MX0.9flM7AWWi_9HzbZ1RY7UotikdP1NWJrJC8ZE74bV-KU
 ###
 
 GET http://localhost:3000/tasks?search=call
 ###
 
-GET http://localhost:3000/tasks/1
+GET http://localhost:3000/tasks/3
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkRhdmllcyIsImlhdCI6MTU5ODkwNTg0NSwiZXhwIjoxNTk4OTA5NDQ1fQ.lA1GAwdreEXvGT_9V5WRpjKLTwqDL87sK6eOTJmnjt4
 ###
 
 POST http://localhost:3000/tasks
 Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkRhdmllcyIsImlhdCI6MTU5ODkwNTg0NSwiZXhwIjoxNTk4OTA5NDQ1fQ.lA1GAwdreEXvGT_9V5WRpjKLTwqDL87sK6eOTJmnjt4
+
 
 {
-    "title": "call mam",
+    "title": "call sally",
     "description": "call to check on here well being"
 }
 ###
